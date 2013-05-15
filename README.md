@@ -35,7 +35,7 @@ edit the configuration file runfify\runify.config
 </tests>
 ```
 
-point the aseembly path to your unit and integration tests assemly paths
+point the assembly paths to your unit and integration tests paths, these are relative to the root of your project.
 
 running
 =======
