@@ -1,4 +1,13 @@
-Stop-Process -processname nunit-agent
+$ProcessActive = Get-Process nunit-agent -ErrorAction SilentlyContinue
+if($ProcessActive -eq $null)
+{
+	Write-Host "nunit-agent not running"	
+}
+else
+{
+	Stop-Process -processname nunit-agent
+}
+
 $path =  $(get-location)
 $nunit = "$path\runify\nunit\tools\nunit-color-console.exe"
 
