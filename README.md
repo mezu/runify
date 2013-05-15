@@ -1,7 +1,7 @@
 runify
 ======
 
-.net continuous unit testing, runify automatically executes tests in your assemblies. 
+.net continuous unit testing, runify automatically executes tests in your assemblies. runify only monitors for changes to files that contain "Tests" in their names
 
 dependencies
 ============
