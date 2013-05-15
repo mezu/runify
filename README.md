@@ -49,12 +49,12 @@ edit the configuration file runfify\runify.config
 
 ```
 <tests>
-  <assembly path="MyProject.UnitTests\bin\debug\MyProject..UnitTests.dll"></assembly>
+  <assembly path="MyProject.UnitTests\bin\debug\MyProject.UnitTests.dll"></assembly>
   <assembly path="MyProject.IntegrationTests\bin\debug\MyProject.IntegrationTests.dll"></assembly>
 </tests>
 ```
 
-point the assembly paths to your unit and integration tests paths, these are relative to the root of your project.
+point the assembly paths to your unit and integration test paths, these are relative to the root of your project.
 
 running
 =======
