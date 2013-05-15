@@ -23,6 +23,25 @@ add the submodule
 git submodule add git@github.com:jeanres/runify.git
 ```
 
+updating
+============
+
+```
+cd your_current_repository
+```
+
+cd into the runify directory
+
+```
+cd runify
+```
+
+update the submodule
+
+```
+git pull
+```
+
 configuration
 ==============
 
