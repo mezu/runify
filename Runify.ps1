@@ -23,6 +23,6 @@ while($true){
 	{
 		$assemblyPath = $assembly.path
 		$test = "$path\$assemblyPath"
-	    & $nunit /labels /nologo /framework:"net-4.0" /xml:"$OutDir\Tests.nunit.xml" $test
+	    	& $nunit /labels /nologo /framework:"net-4.0" /xml:"$OutDir\Tests.nunit.xml" $test
 	}
 }
