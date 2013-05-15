@@ -39,7 +39,7 @@ point the aseembly path to your unit and integration tests assemly paths
 running
 =======
 
-you the root of your repository run .\runify\runify.ps1
+cd to the root of your repository run .\runify\runify.ps1
 
 Contributing
 ============
