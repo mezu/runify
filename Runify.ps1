@@ -1,8 +1,8 @@
 Stop-Process -processname nunit-agent
-$path =  "C:\Code\otd_cataloguing"
-$nunit = "$path\packages\NUnit.Runners.2.6.2\tools\nunit-color-console.exe"
+$path =  $(get-location)
+$nunit = "$path\runify\nunit\tools\nunit-color-console.exe"
 
-$configFile = "$path\runify.config"
+$configFile = "$path\runify\runify.config"
 $config = New-Object XML
 $config.Load($configFile)
 
