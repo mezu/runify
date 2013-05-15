@@ -1,13 +1,14 @@
 runify
 ======
 
-.net continuous unit testing
+.net continuous unit testing, runify automatically executes tests in your assemblies. 
 
 dependencies
 ============
 
 1. Powershell >= 2.0
-2. Git
+2. nunit
+3. Git
 
 installation
 ============
@@ -29,8 +30,8 @@ edit the configuration file runfify\runify.config
 
 ```
 <tests>
-  <assembly path="OnTheDot.Cataloguing.UnitTests\bin\debug\OnTheDot.Cataloguing.UnitTests.dll"></assembly>
-  <assembly path="OnTheDot.Cataloguing.IntegrationTests\bin\debug\OnTheDot.Cataloguing.IntegrationTests.dll"></assembly>
+  <assembly path="MyProject.UnitTests\bin\debug\MyProject..UnitTests.dll"></assembly>
+  <assembly path="MyProject.IntegrationTests\bin\debug\MyProject.IntegrationTests.dll"></assembly>
 </tests>
 ```
 
