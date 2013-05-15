@@ -12,9 +12,15 @@ dependencies
 installation
 ============
 
+```
 cd your_current_repository
+```
 
+add the submodule
+
+```
 git submodule add git@github.com:jeanres/runify.git
+```
 
 configuration
 ==============
